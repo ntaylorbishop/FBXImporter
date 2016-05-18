@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{2d219670-bd24-4610-ae55-846cc100e798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Geometry">
+      <UniqueIdentifier>{baca3060-b7ad-44bc-91df-f804baf687af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders">
+      <UniqueIdentifier>{96360f42-1c5d-445f-b955-6eb7f4d8eacd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Textures">
+      <UniqueIdentifier>{b31147a5-4aab-4a66-af9b-50facfbf08cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Lights">
+      <UniqueIdentifier>{f6b7b8a5-6604-42a6-b76e-093e3ed9856d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders\Deprecated">
+      <UniqueIdentifier>{59bf37da-8117-49ba-b360-df3e996a5b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders\Cool Effects">
+      <UniqueIdentifier>{d8c0d43b-77eb-4255-bb1a-5270bb636063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders\Fullscreen Effects">
+      <UniqueIdentifier>{ece8c3f2-4d9b-4351-a439-8519b10fa997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\FBX">
+      <UniqueIdentifier>{4d23505a-3e23-4846-805f-d2ba9b1bdc2c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TheGame.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApp.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TheCamera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TheUI.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Source\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSystem.cpp">
+      <Filter>Source\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshToRender.cpp">
+      <Filter>Source\Geometry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TheGame.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TheApp.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TheCamera.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TheUI.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.hpp">
+      <Filter>Source\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSystem.hpp">
+      <Filter>Source\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialManager.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshToRender.hpp">
+      <Filter>Source\Geometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Run_Win32\Data\Shaders\multi_light.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\multi_light.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\basic_light.frag">
+      <Filter>Data\Shaders\Deprecated</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\basic_light.vert">
+      <Filter>Data\Shaders\Deprecated</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\cool_noise.frag">
+      <Filter>Data\Shaders\Cool Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\cool_noise.vert">
+      <Filter>Data\Shaders\Cool Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\dissolve.vert">
+      <Filter>Data\Shaders\Cool Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\dissolve.frag">
+      <Filter>Data\Shaders\Cool Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\fvf.frag">
+      <Filter>Data\Shaders\Deprecated</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\fvf.vert">
+      <Filter>Data\Shaders\Deprecated</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\timed.vert">
+      <Filter>Data\Shaders\Deprecated</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\timed.frag">
+      <Filter>Data\Shaders\Deprecated</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\post_process1.frag">
+      <Filter>Data\Shaders\Fullscreen Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\post_process1.vert">
+      <Filter>Data\Shaders\Fullscreen Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\post_process2.frag">
+      <Filter>Data\Shaders\Fullscreen Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\post_process2.vert">
+      <Filter>Data\Shaders\Fullscreen Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\passthrough.frag">
+      <Filter>Data\Shaders\Deprecated</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\passthrough.vert">
+      <Filter>Data\Shaders\Deprecated</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\post_process3.vert">
+      <Filter>Data\Shaders\Fullscreen Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\post_process3.frag">
+      <Filter>Data\Shaders\Fullscreen Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\post_process4.vert">
+      <Filter>Data\Shaders\Fullscreen Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\post_process4.frag">
+      <Filter>Data\Shaders\Fullscreen Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\post_process5.vert">
+      <Filter>Data\Shaders\Fullscreen Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\post_process5.frag">
+      <Filter>Data\Shaders\Fullscreen Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\post_process6.vert">
+      <Filter>Data\Shaders\Fullscreen Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\post_process6.frag">
+      <Filter>Data\Shaders\Fullscreen Effects</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\FBX\SampleBox.fbx">
+      <Filter>Data\FBX</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\FBX\basicbox.fbx">
+      <Filter>Data\FBX</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\FBX\nodetest.fbx">
+      <Filter>Data\FBX</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\FBX\unitychan.fbx">
+      <Filter>Data\FBX</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Run_Win32\Data\Textures\Pixel.png">
+      <Filter>Data\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Textures\brick_texture.png">
+      <Filter>Data\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Textures\brick_texture_normal.png">
+      <Filter>Data\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Textures\example_colour.png">
+      <Filter>Data\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Textures\example_normal.png">
+      <Filter>Data\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Textures\example_spec.png">
+      <Filter>Data\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Textures\test_normal.png">
+      <Filter>Data\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Textures\emissive_texture.png">
+      <Filter>Data\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Textures\emissive_texture2.png">
+      <Filter>Data\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Textures\moon_diffuse.png">
+      <Filter>Data\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Textures\moon_normal.png">
+      <Filter>Data\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Textures\pringles_guy.png">
+      <Filter>Data\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Textures\test_colour.png">
+      <Filter>Data\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Textures\test_texture.png">
+      <Filter>Data\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Textures\DissolveTexture.png">
+      <Filter>Data\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
