@@ -14,7 +14,7 @@
 | C             | Move camera down |
 | Mouse         | Look around      |
 
-#To Demo Animation Blending
+##To Demo Animation Blending
 
 1. Hit F1 to open console
 2. Type in: "**animblend**"
