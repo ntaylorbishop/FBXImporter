@@ -9,5 +9,5 @@
 #To Demo Animation Blending
 
 1. Hit F1 to open console
-2. Type in: "animblend"
+2. Type in: "**animblend**"
 3. Use left and right arrow keys to blend between IDLE - WALK - RUN
