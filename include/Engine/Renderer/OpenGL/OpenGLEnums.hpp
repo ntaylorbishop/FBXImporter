@@ -1,0 +1,54 @@
+#pragma once
+
+#define WIN32_LEAN_AND_MEAN
+#include <Windows.h>
+#include <gl/gl.h>
+#include <GL/glu.h>
+#pragma comment( lib, "opengl32" ) // Link in the OpenGL32.lib static library
+#pragma comment( lib, "GLu32" ) // Link in the GLu32.lib static library
+#include "Engine/Renderer/OpenGL/OpenGLExtensions.hpp"
+
+enum eRenderEnum {
+	ENUM_FLOAT = 0,
+	ENUM_DOUBLE,
+	ENUM_INT,
+	ENUM_SHORT,
+	ENUM_TRUE,
+	ENUM_FALSE,
+	ENUM_NAME_LENGTH,
+	ENUM_TYPE,
+	ENUM_ARRAY_SIZE,
+	ENUM_PROGRAM_INPUT,
+	ENUM_NEAREST,
+	ENUM_REPEAT,
+	ENUM_FLOAT_VEC2,
+	ENUM_FLOAT_VEC3,
+	ENUM_FLOAT_VEC4,
+	ENUM_DOUBLE_VEC2,
+	ENUM_DOUBLE_VEC3,
+	ENUM_DOUBLE_VEC4,
+	ENUM_INT_VEC2,
+	ENUM_INT_VEC3,
+	ENUM_INT_VEC4,
+	ENUM_UNSIGNED_INT,
+	ENUM_UNSIGNED_INT_VEC2,
+	ENUM_UNSIGNED_INT_VEC3,
+	ENUM_UNSIGNED_INT_VEC4,
+	ENUM_BOOL,
+	ENUM_BOOL_VEC2,
+	ENUM_BOOL_VEC3,
+	ENUM_BOOL_VEC4,
+	ENUM_FLOAT_MAT2,
+	ENUM_FLOAT_MAT3,
+	ENUM_FLOAT_MAT4,
+	ENUM_DOUBLE_MAT2,
+	ENUM_DOUBLE_MAT3,
+	ENUM_DOUBLE_MAT4,
+	ENUM_SAMPLER_1D,
+	ENUM_SAMPLER_2D,
+	ENUM_SAMPLER_3D,
+	ENUM_SAMPLER_CUBE
+};
+
+int GetOpenGLEnum(eRenderEnum glEnum);
+eRenderEnum GetRenderEnumForOpenGLEnum(GLenum glEnum);
