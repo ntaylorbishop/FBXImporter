@@ -1,3 +1,8 @@
+#Notes on Compilation
+
+..*Compiled with VS2015 compiler
+..*Must be compiled in DebugInline
+
 #How to Use
 
 ##Moving Around the Scene
