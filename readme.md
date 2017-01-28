@@ -6,11 +6,14 @@
 #How to Use
 
 ##Moving Around the Scene
-	WASD to move
-	Space to go higher
-	C to go lower
-	Mouse to look around
 	
+| Keyboard      | Function         |
+| ------------- | :--------------: |
+| WASD          | Move around      |
+| Space         | Move camera up   |
+| C             | Move camera down |
+| Mouse         | Look around      |
+
 #To Demo Animation Blending
 
 1. Hit F1 to open console
